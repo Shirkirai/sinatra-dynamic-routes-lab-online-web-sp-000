@@ -40,9 +40,9 @@ class App < Sinatra::Base
       if @operation == "+"
           puts "#{@number1 + @number2}"
       elsif @operation == "-"
-          puts "#{@number2 - @number 1}"
+          puts "#{@number2 - @number1}"
       elsif @operation == "*"
-          puts "#{@number 1 * @number 2}"
+          puts "#{@number1 * @number2}"
       else
           puts "#{@number2/@number1}"
       end
