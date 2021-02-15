@@ -47,7 +47,7 @@ class App < Sinatra::Base
           answer = "#{@number1 * @number2}"
           answer.to_s
       else
-          answer = "#{@number2/@number1}"
+          answer = "#{@number1/@number2}"
           answer.to_s
       end
   end
