@@ -30,7 +30,7 @@ class App < Sinatra::Base
 
   end
 
-  get '/say/:word1/:word2' do
+  get '/say/:word1' do
       answer = ''
       params[:word1] do
           answer += params[:word2]
