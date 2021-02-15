@@ -41,11 +41,14 @@ class App < Sinatra::Base
           answer = "#{@number1 + @number2}"
           answer.to_s
       elsif @operation == "subtract"
-          puts "#{@number2 - @number1}"
+          answer "#{@number2 - @number1}"
+          answer.to_s
       elsif @operation == "multiply"
-          puts "#{@number1 * @number2}"
+          answer = "#{@number1 * @number2}"
+          answer.to_s
       else
-          puts "#{@number2/@number1}"
+          answer = "#{@number2/@number1}"
+          answer.to_s
       end
   end
 end
