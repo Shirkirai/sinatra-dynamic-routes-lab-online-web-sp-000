@@ -39,4 +39,5 @@ class App < Sinatra::Base
       @number2 = params[:number2].to_i
       answer = "#{@number1 @operation @number2}"
       answer
+  end
 end
