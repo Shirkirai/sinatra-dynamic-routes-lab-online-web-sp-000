@@ -31,4 +31,7 @@ class App < Sinatra::Base
       answer = "#{@word1} #{@word2} #{@word3} #{@word4} #{@word5}."
       answer
   end
+
+  get '/:operation/:number/:number2'
+  end
 end
