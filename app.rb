@@ -31,14 +31,5 @@ class App < Sinatra::Base
       answer = "#{@word1}#{@word2}#{@word3}#{@word4}#{@word5}."
       end
       answer
-
-  end
-
-  get '/say/:word1' do
-      answer = ''
-      params[:word1] do
-          answer += params[:word2]
-      end
-      answer
   end
 end
