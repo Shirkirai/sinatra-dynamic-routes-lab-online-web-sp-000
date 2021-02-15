@@ -27,6 +27,6 @@ class App < Sinatra::Base
           answer = params[:word1] + params[:word2]
       end
       answer
-    
+
   end
 end
