@@ -29,4 +29,12 @@ class App < Sinatra::Base
       answer
 
   end
+
+  get '/say/:word1/:word2' do
+      answer = ''
+      params[:word1] do
+          answer += params[:word2]
+      end
+      answer
+  end
 end
