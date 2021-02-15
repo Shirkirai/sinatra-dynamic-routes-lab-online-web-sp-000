@@ -29,7 +29,6 @@ class App < Sinatra::Base
       @word4 = params[:word4].to_s
       @word5 = params[:word5].to_s
       answer = "#{@word1}#{@word2}#{@word3}#{@word4}#{@word5}."
-      end
       answer
   end
 end
